@@ -6,6 +6,7 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 	standalone: true,
 	imports: [NgbNavModule, NgbNavModule],
 	templateUrl: './header.html',
+	styleUrls: ['./style.css']
 })
 export class Header {
 	

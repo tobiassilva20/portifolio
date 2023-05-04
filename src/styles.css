@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Bruno+Ace&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+   /* font-family: 'Bruno Ace', cursive;*/
+}
+.altura{
+    height: 100vh;
+}
