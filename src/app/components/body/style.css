@@ -1,6 +1,43 @@
 
 .content {
     background-color: #02ad97;
-    padding-top: 100px;
-    height: 75vh;
+    min-height: 100%;
+    text-align: justify;
+}
+.menu {
+    list-style: none;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 0px;
+}
+.menu li {
+    padding-left: 15px;
+    background-color: aliceblue;
+    margin: 0px 0px 8px 0px;
+    text-align: justify;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #444;
+    cursor: pointer;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #444;;
+    
+}
+.menu li a:visited {
+    color: none;
+    
+}
+
+.principal {
+    margin: 0px 32px 0px -10px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #444;
+    color: #444;
+    height: 100%;
+    color: #444;
+    padding: 5px 15px;
+    font-weight: 500;
 }
