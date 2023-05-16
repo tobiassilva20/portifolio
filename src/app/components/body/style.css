@@ -10,24 +10,38 @@
     line-height: 35px;
     margin-top: 0px;
 }
-.menu li {
-    padding-left: 15px;
+.menu li{
     background-color: aliceblue;
     margin: 0px 0px 8px 0px;
     text-align: justify;
     border-radius: 3px;
     box-shadow: 2px 2px 4px #444;
+    width: 100%;
     cursor: pointer;
 }
 
 .menu li a{
+    display: block;
+    padding-left: 15px;
     text-decoration: none;
     color: #444;;
-    
+    height: 100%;
+    width: 100%px;
 }
-.menu li a:visited {
-    color: none;
-    
+
+.menu li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #02ad97;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 4px #333;
+    transition: .2s ease-in;
+}
+.active{
+    color: #cdeedb;
+    background-color: #cdeedb;
+    box-shadow: 3px 3px 4px #333;
 }
 
 .principal {
