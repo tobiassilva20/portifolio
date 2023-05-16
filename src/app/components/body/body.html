@@ -3,16 +3,16 @@
         <div class="row ">
             <div class="col-3 py-0">
                 <ul class="menu">
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Formação</a></li>
-                    <li><a href="#">Meus projetos</a></li>
-                    <li><a href="#">Principais Skills</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a routerLink="/about">Sobre mim</a></li>
+                    <li><a routerLink="/education">Formação</a></li>
+                    <li><a routerLink="/skills">Principais Skills</a></li>
+                    <li><a routerLink="/projects">Meus projetos</a></li>
+                    <li><a routerLink="">Login</a></li>
                 </ul>
             </div>
             <div class="col-9 py-0">
                 <div class="principal">
-                    <app-body-content></app-body-content>
+                    <router-outlet></router-outlet>
                 </div>
             </div>
         </div>
